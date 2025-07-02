@@ -69,3 +69,5 @@ inputs = {"messages": [("user", "How is the weather in Berlin today (2025-07-02)
 for state in graph.stream(inputs, stream_mode="values"):
     last_message = state["messages"][-1]
     last_message.pretty_print()
+
+# This is graph one
